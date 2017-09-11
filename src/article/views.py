@@ -15,7 +15,8 @@ from header.models import Header
 # from comments.models import Comment
 # from companys.models import Business, Category
 from django.contrib.contenttypes.models import ContentType
-from el_pagination.decorators import page_template
+import requests
+
 
 # Create your views here.
 

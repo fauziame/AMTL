@@ -1,0 +1,1 @@
+web: gunicorn Affaired_Montreal.wsgi --log-file -
