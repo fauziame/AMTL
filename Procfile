@@ -1,1 +1,1 @@
-web: gunicorn  --pythonpath /src/ Affaires_Montreal.wsgi --log-file -
+web: cd mysite; gunicorn  Affaires_Montreal.wsgi --log-file -
