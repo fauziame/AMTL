@@ -1,0 +1,113 @@
+<!-- DOCTYPE html -->
+{% load staticfiles %}
+<html>
+<head>
+    <title>{% block head_title %} Affaires MTL {% endblock head_title %}</title>
+
+
+
+    <meta charset="utf-8">
+     <meta name="description" content="High Quality Cleaning / maid service in Montreal">
+  <meta name="keywords" content="News Montreal,">
+  <meta name="author" content="Meraki Designs">
+
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title> </title>
+
+    <!-- Bootstrap -->
+  <!-- Latest compiled and minified CSS -->
+
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+<link href='{% static "css/custome.css" %}' rel="stylesheet">
+       <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+
+<style>
+
+        {% block style %}        {% endblock style %}
+    </style>
+  </head>
+<body>
+
+
+    <nav class="navbar fixed-top navbar-dark navbar-expand-lg navbar-light">
+  <a class="navbar-brand" href="#"><img src='{% static "img/logo1.png" %}'> </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon "></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item ">
+        <a class="nav-link" href="#">News <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Business</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">Restaurant</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">Entertainment</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">Bars</a>
+      </li>
+        <li class="nav-item">
+        <a class="nav-link" href="#">Shops</a>
+      </li>
+
+    </ul>
+    <form  method="GET" class="form-inline my-2 my-lg-0" role="search">
+      <input class="form-control mr-sm-2 search" type="text" placeholder="Search" name="q" aria-label="Search" value="{{request.GET.q}}">
+      <button class="btn btn-outline-dark my-2 my-sm-0" type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+    </form>
+  </div>
+</nav>
+
+
+    {% block content %}
+
+
+    {% endblock content %}
+
+
+    <script src='{% static "js/node_modules/jquery/dist/jquery.js" %}' ></script> <!-- Load jQuery first -->
+    <script src='{% static "js/node_modules/jquery/dist/jquery.slim.min.js" %}'></script>
+    <script src='{% static "js/node_modules/tilt.js/dest/tilt.jquery.js" %}'></script>
+<script>
+    const tilt = $('.js-tilt').tilt();
+    $('.js-destroy').on('click', function () {
+        const element = $(this).closest('.js-parent').find('.js-tilt');
+        element.tilt.destroy.call(element);
+    });
+    $('.js-getvalue').on('click', function () {
+        const element = $(this).closest('.js-parent').find('.js-tilt');
+        const test = element.tilt.getValues.call(element);
+        console.log(test[0]);
+    });
+    $('.js-reset').on('click', function () {
+        const element = $(this).closest('.js-parent').find('.js-tilt');
+        element.tilt.reset.call(element);
+    });
+    tilt.on('change', function (e, transforms) {
+     console.log(transforms);
+     });
+     tilt.on('tilt.mouseLeave', function (e) {
+     console.log(e);
+     });
+     tilt.on('tilt.mouseEnter', function (e) {
+     console.log(e);
+     });
+
+</script>
+
+
+     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>
