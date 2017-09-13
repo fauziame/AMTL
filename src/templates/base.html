@@ -75,9 +75,9 @@
     {% endblock content %}
 
 
-    <script src='{% static "js/node_modules/jquery/dist/jquery.js" %}' ></script> <!-- Load jQuery first -->
-    <script src='{% static "js/node_modules/jquery/dist/jquery.slim.min.js" %}'></script>
-    <script src='{% static "js/node_modules/tilt.js/dest/tilt.jquery.js" %}'></script>
+    <script src='{% static "js/jquery.js" %}' ></script> <!-- Load jQuery first -->
+    <script src='{% static "js/jquery.slim.min.js" %}'></script>
+    <script src='{% static "js/tilt.jquery.js" %}'></script>
 <script>
     const tilt = $('.js-tilt').tilt();
     $('.js-destroy').on('click', function () {

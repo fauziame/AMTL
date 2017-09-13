@@ -11,6 +11,10 @@ from django.shortcuts import render
 from django.utils import timezone
 from django.db.models import Q
 from header.models import Header
+from newsletter.models import Newsletter
+from ads.models import Ad
+from itertools import chain, izip_longest
+
 # from comments.forms import CommentForm
 # from comments.models import Comment
 # from companys.models import Business, Category
@@ -100,44 +104,47 @@ def article_list(request):
 
     return render(request, "index.html", context)
 
-def article_list2(request):
+def article_list2(request, publish):
     today = timezone.now().date()
-    queryset_list = Article.objects.active()
+    newsletter = get_object_or_404(Newsletter, publish=publish)
+    queryset_list = Article.objects.all().filter(newsletter=newsletter)
+    ads = Ad.objects.all().filter(newsletter=newsletter)
 
-
-    if request.user.is_superuser or request.user.is_staff:
-        queryset_list = Article.objects.all()
-
-    query = request.GET.get('q')
-    if query:
-        queryset_list = queryset_list.filter(
-            Q(title__icontains=query) |
-            Q(content__icontains=query) |
-            Q(user__first_name__icontains=query) |
-            Q(user__last_name__icontains=query)
-
-        ).distinct()
-    paginator = Paginator(queryset_list, 8)  # Show 25 contacts per page
-
-    page = request.GET.get('page')
-    try:
-        queryset = paginator.page(page)
-    except PageNotAnInteger:
-        # If page is not an integer, deliver first page.
-        queryset = paginator.page(1)
-    except EmptyPage:
-        # If page is out of range (e.g. 9999), deliver last page of results.
-        queryset = paginator.page(paginator.num_pages)
+    # if request.user.is_superuser or request.user.is_staff:
+    #     queryset_list = Article.objects.all()
+    #
+    # query = request.GET.get('q')
+    # if query:
+    #     queryset_list = queryset_list.filter(
+    #         Q(title__icontains=query) |
+    #         Q(content__icontains=query) |
+    #         Q(user__first_name__icontains=query) |
+    #         Q(user__last_name__icontains=query)
+    #
+    #     ).distinct()
+    # paginator = Paginator(queryset_list, 8)  # Show 25 contacts per page
+    #
+    # page = request.GET.get('page')
+    # try:
+    #     queryset = paginator.page(page)
+    # except PageNotAnInteger:
+    #     # If page is not an integer, deliver first page.
+    #     queryset = paginator.page(1)
+    # except EmptyPage:
+    #     # If page is out of range (e.g. 9999), deliver last page of results.
+    #     queryset = paginator.page(paginator.num_pages)
     category_list = Category.objects.all()
 
     header = Header.objects.latest("publish")
 
     context = {
-        "articles_list": queryset,
+        "articles_list": queryset_list,
         "title": "List",
         "today": today,
         "category_list": category_list,
         "header":header,
+        "ads": ads,
+        "ads_article": izip_longest(ads, queryset_list)
 
     }
 

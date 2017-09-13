@@ -5,7 +5,7 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.article_list, name='list'),
-    url(r'^article/$', views.article_list2, name='article'),
+    url(r'^(?P<publish>[\w-]+)/article/$', views.article_list2, name='article'),
 
     #url(r'^/category/(?P<slug>[\w-]+)/$', views.cat_list, name='cat'),
     url(r'^create/', views.article_create, name='create'),

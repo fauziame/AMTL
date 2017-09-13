@@ -1,7 +1,576 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7fc5c479-6d35-48e0-a4f2-f050f46f6bc6" name="Default" comment="" />
+    <list default="true" id="7fc5c479-6d35-48e0-a4f2-f050f46f6bc6" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Affaires_Montreal/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Affaires_Montreal/db.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Affaires_Montreal/old_settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Affaires_Montreal/settings/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Affaires_Montreal/settings/local.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Affaires_Montreal/settings/my_settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Affaires_Montreal/settings/production.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Affaires_Montreal/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Affaires_Montreal/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/article/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/article/admin.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/article/apps.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/article/forms.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/article/migrations/0001_initial.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/article/migrations/0002_category.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/article/migrations/0003_article_cat.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/article/migrations/0004_article_newsletter.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/article/migrations/0005_remove_article_offer.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/article/migrations/0006_auto_20170910_0043.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/article/migrations/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/article/models.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/article/tests.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/article/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/article/views.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/django_jet-1.0.6.dist-info/DESCRIPTION.rst" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/django_jet-1.0.6.dist-info/INSTALLER" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/django_jet-1.0.6.dist-info/METADATA" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/django_jet-1.0.6.dist-info/RECORD" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/django_jet-1.0.6.dist-info/WHEEL" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/django_jet-1.0.6.dist-info/metadata.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/django_jet-1.0.6.dist-info/top_level.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jet/static/jet/js/build/bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/css/base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/css/changelists.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/css/dashboard.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/css/fonts.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/css/forms.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/css/login.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/css/rtl.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/css/widgets.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/fonts/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/fonts/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/fonts/Roboto-Bold-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/fonts/Roboto-Light-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/fonts/Roboto-Regular-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/img/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/img/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/img/calendar-icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/img/gis/move_vertex_off.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/img/gis/move_vertex_on.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/img/icon-addlink.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/img/icon-alert.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/img/icon-calendar.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/img/icon-changelink.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/img/icon-clock.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/img/icon-deletelink.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/img/icon-no.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/img/icon-unknown-alt.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/img/icon-unknown.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/img/icon-yes.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/img/inline-delete.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/img/search.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/img/selector-icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/img/sorting-icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/img/tooltag-add.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/img/tooltag-arrowright.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/SelectBox.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/SelectFilter2.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/actions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/actions.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/admin/DateTimeShortcuts.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/admin/RelatedObjectLookups.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/calendar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/cancel.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/change_form.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/collapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/collapse.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/inlines.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/inlines.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/jquery.init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/popup_response.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/prepopulate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/prepopulate.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/prepopulate_init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/related-widget-wrapper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/timeparse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/urlify.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/vendor/jquery/LICENSE-JQUERY.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/vendor/jquery/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/vendor/jquery/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/vendor/xregexp/LICENSE-XREGEXP.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/vendor/xregexp/xregexp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/admin/js/vendor/xregexp/xregexp.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/css/custome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/el-pagination/js/el-pagination-endless.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/el-pagination/js/el-pagination.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/el-pagination/js/el-pagination_on_scroll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/ad1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/ad10.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/ad11.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/ad12.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/ad13.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/ad2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/ad3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/ad4.jpeg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/ad5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/ad6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/ad7.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/ad8.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/ad9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/event.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/header.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/hel.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/logo1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/logo2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/logo3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/news1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/news2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/politics.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/res.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/tennis.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/img/tesla.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet.dashboard/dashboard_modules/google_analytics.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet.dashboard/dashboard_modules/yandex_metrika.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet.dashboard/vendor/chart.js/CONTRIBUTING.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet.dashboard/vendor/chart.js/Chart.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet.dashboard/vendor/chart.js/Chart.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet.dashboard/vendor/chart.js/LICENSE.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet.dashboard/vendor/chart.js/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/_base.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/_breadcrumbs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/_changeform.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/_changelist.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/_content.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/_dashboard.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/_delete-confirmation.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/_forms.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/_globals.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/_header.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/_helpers.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/_login.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/_messages.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/_modules.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/_object-tools.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/_relatedpopup.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/_sidebar.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/_tables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/icons/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/icons/fonts/jet-icons.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/icons/fonts/jet-icons.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/icons/fonts/jet-icons.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/icons/fonts/jet-icons.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/icons/style.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/jquery-ui/_jquery-ui.theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/jquery-ui/images/ui-bg_flat_0_aaaaaa_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/jquery-ui/images/ui-bg_flat_75_ffffff_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/jquery-ui/images/ui-bg_glass_55_fbf9ee_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/jquery-ui/images/ui-bg_glass_65_ffffff_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/jquery-ui/images/ui-bg_glass_75_dadada_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/jquery-ui/images/ui-bg_glass_75_e6e6e6_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/jquery-ui/images/ui-bg_glass_95_fef1ec_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/jquery-ui/images/ui-bg_highlight-soft_75_cccccc_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/jquery-ui/images/ui-icons_222222_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/jquery-ui/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/jquery-ui/images/ui-icons_454545_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/jquery-ui/images/ui-icons_888888_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/jquery-ui/images/ui-icons_cd0a0a_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/select2/_layout.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/select2/_multiple.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/select2/_single.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/default/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/default/base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/default/base.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/default/base.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/default/jquery-ui.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/default/jquery-ui.theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/default/jquery-ui.theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/default/select2.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/default/select2.theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/default/select2.theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/green/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/green/base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/green/base.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/green/base.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/green/jquery-ui.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/green/jquery-ui.theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/green/jquery-ui.theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/green/select2.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/green/select2.theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/green/select2.theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-blue/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-blue/base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-blue/base.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-blue/base.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-blue/jquery-ui.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-blue/jquery-ui.theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-blue/jquery-ui.theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-blue/select2.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-blue/select2.theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-blue/select2.theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-gray/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-gray/base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-gray/base.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-gray/base.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-gray/jquery-ui.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-gray/jquery-ui.theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-gray/jquery-ui.theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-gray/select2.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-gray/select2.theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-gray/select2.theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-green/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-green/base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-green/base.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-green/base.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-green/jquery-ui.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-green/jquery-ui.theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-green/jquery-ui.theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-green/select2.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-green/select2.theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-green/select2.theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-violet/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-violet/base.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-violet/base.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-violet/base.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-violet/jquery-ui.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-violet/jquery-ui.theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-violet/jquery-ui.theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-violet/select2.theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-violet/select2.theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/themes/light-violet/select2.theme.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/css/vendor.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/build/bundle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-pt-BR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui-timepicker/jquery.ui.timepicker-tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-af.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-ar-DZ.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-ar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-az.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-be.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-bs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-cy-GB.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-el.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-en-AU.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-en-GB.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-en-NZ.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-eo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-eu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-fo.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-fr-CA.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-fr-CH.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-hy.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-it-CH.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-ja.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-ka.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-kk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-km.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-ky.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-lb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-ml.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-ms.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-nl-BE.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-nn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-no.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-pt-BR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-rm.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-sl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-sq.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-sr-SR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-ta.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-tj.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-zh-HK.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/jquery-ui/datepicker-zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/az.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/bg.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/ca.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/cs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/da.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/de.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/en.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/es.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/et.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/eu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/fa.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/fi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/fr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/gl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/he.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/hi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/hr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/hu.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/id.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/is.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/it.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/ko.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/lt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/lv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/mk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/nb.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/nl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/pl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/pt-BR.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/pt.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/ro.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/ru.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/sk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/sr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/sv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/th.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/tr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/uk.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/vi.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/zh-CN.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/i18n/select2/zh-TW.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/features/changeform-tabs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/features/changeform.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/features/changelist.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/features/checkboxes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/features/compact-inline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/features/dashboard.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/features/date-time-widgets.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/features/filters.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/features/inlines.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/features/related-popups.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/features/scroll-to-bottom-detector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/features/selects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/features/siblings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/features/sidebar/application-pinning.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/features/sidebar/bookmarks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/features/sidebar/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/features/sidebar/popup.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/features/themes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/features/tooltips.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/features/touchmove-non-scrollable.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/layout-updaters/actions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/layout-updaters/branding.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/layout-updaters/breadcrumbs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/layout-updaters/changeform-tabs.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/layout-updaters/delete-confirmation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/layout-updaters/icons.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/layout-updaters/object-tools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/layout-updaters/paginator.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/layout-updaters/related-widget-wrapper.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/layout-updaters/stacked-inline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/layout-updaters/tabular-inline.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/layout-updaters/toolbar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/layout-updaters/user-tools.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/utils/jquery-icontains.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/utils/jquery-slidefade.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/utils/translate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/jet/js/src/utils/window-storage.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/AUTHORS.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/bower.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/dist/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/dist/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/dist/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/dist/jquery.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/dist/jquery.slim.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/dist/jquery.slim.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/dist/jquery.slim.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/external/sizzle/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/external/sizzle/dist/sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/external/sizzle/dist/sizzle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/external/sizzle/dist/sizzle.min.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/ajax/jsonp.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/ajax/load.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/ajax/parseXML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/ajax/script.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/ajax/var/location.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/ajax/var/nonce.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/ajax/var/rquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/ajax/xhr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/attributes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/attributes/attr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/attributes/classes.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/attributes/prop.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/attributes/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/attributes/val.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/callbacks.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/core.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/core/DOMEval.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/core/access.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/core/init.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/core/nodeName.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/core/parseHTML.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/core/ready-no-deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/core/ready.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/core/readyException.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/core/stripAndCollapse.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/core/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/core/var/rsingleTag.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/css.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/css/addGetHookIf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/css/adjustCSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/css/curCSS.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/css/hiddenVisibleSelectors.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/css/showHide.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/css/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/css/var/cssExpand.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/css/var/getStyles.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/css/var/isHiddenWithinTree.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/css/var/rmargin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/css/var/rnumnonpx.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/css/var/swap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/data/Data.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/data/var/acceptData.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/data/var/dataPriv.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/data/var/dataUser.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/deferred.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/deferred/exceptionHook.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/deprecated.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/dimensions.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/effects.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/effects/Tween.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/effects/animatedSelector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/event.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/event/ajax.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/event/alias.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/event/focusin.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/event/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/event/trigger.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/exports/amd.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/exports/global.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/manipulation.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/manipulation/_evalUrl.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/manipulation/buildFragment.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/manipulation/getAll.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/manipulation/setGlobalEval.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/manipulation/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/manipulation/var/rcheckableType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/manipulation/var/rscriptType.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/manipulation/var/rtagName.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/manipulation/wrapMap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/offset.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/queue.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/queue/delay.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/selector-native.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/selector-sizzle.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/selector.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/serialize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/traversing.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/traversing/findFilter.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/traversing/var/dir.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/traversing/var/rneedsContext.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/traversing/var/siblings.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/var/ObjectFunctionString.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/var/arr.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/var/class2type.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/var/concat.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/var/document.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/var/documentElement.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/var/fnToString.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/var/getProto.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/var/hasOwn.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/var/indexOf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/var/pnum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/var/push.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/var/rcssNum.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/var/rnothtmlwhite.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/var/slice.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/var/support.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/var/toString.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/jquery/src/wrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/tilt.js/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/tilt.js/demo/css/tilt.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/tilt.js/demo/css/tilt.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/tilt.js/demo/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/tilt.js/demo/scss/tilt.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/tilt.js/dest/tilt.jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/tilt.js/dest/tilt.jquery.js.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/tilt.js/dest/tilt.jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/tilt.js/gulp/config.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/tilt.js/gulp/tasks/browsersync.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/tilt.js/gulp/tasks/build.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/tilt.js/gulp/tasks/default.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/tilt.js/gulp/tasks/js.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/tilt.js/gulp/tasks/scss.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/tilt.js/gulp/tasks/tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/tilt.js/gulp/tasks/watch.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/tilt.js/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/tilt.js/readme.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/tilt.js/src/tilt.jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/tilt.js/tests/tests.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/node_modules/tilt.js/tests/tests.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/js/yarn.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/static_cdn/range_filter/css/style.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/db.sqlite3" afterPath="$PROJECT_DIR$/src/db.sqlite3" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/python2.7/site-packages/jet/templates/admin/base.html" afterPath="$PROJECT_DIR$/lib/python2.7/site-packages/jet/templates/admin/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pip-selfcheck.json" afterPath="$PROJECT_DIR$/pip-selfcheck.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Affaires_Montreal/old_settings.py" afterPath="$PROJECT_DIR$/src/Affaires_Montreal/old_settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Affaires_Montreal/settings/local.py" afterPath="$PROJECT_DIR$/src/Affaires_Montreal/settings/local.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Affaires_Montreal/settings/my_settings.py" afterPath="$PROJECT_DIR$/src/Affaires_Montreal/settings/my_settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Affaires_Montreal/settings/production.py" afterPath="$PROJECT_DIR$/src/Affaires_Montreal/settings/production.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Affaires_Montreal/wsgi.py" afterPath="$PROJECT_DIR$/src/Affaires_Montreal/wsgi.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pipfile" afterPath="$PROJECT_DIR$/src/Pipfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Pipfile.lock" afterPath="$PROJECT_DIR$/src/Pipfile.lock" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Procfile" afterPath="$PROJECT_DIR$/src/Procfile" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ads/admin.py" afterPath="$PROJECT_DIR$/src/ads/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/ads/models.py" afterPath="$PROJECT_DIR$/src/ads/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/article/models.py" afterPath="$PROJECT_DIR$/src/article/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/article/urls.py" afterPath="$PROJECT_DIR$/src/article/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/article/views.py" afterPath="$PROJECT_DIR$/src/article/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/newsletter/models.py" afterPath="$PROJECT_DIR$/src/newsletter/models.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/requirements.txt" afterPath="$PROJECT_DIR$/src/requirements.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/article.html" afterPath="$PROJECT_DIR$/src/templates/article.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/base.html" afterPath="$PROJECT_DIR$/src/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/templates/index.html" afterPath="$PROJECT_DIR$/src/templates/index.html" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,21 +581,80 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Affaires_Montreal/__init__.py">
+      <file leaf-file-name="models.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/ads/models.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="510">
+              <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
+              <folding>
+                <element signature="e#24#63#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="article.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/article.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-520">
+              <caret line="93" column="17" lean-forward="false" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#span#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#span#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#i#0;n#span#3;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/base.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1155">
+              <caret line="77" column="41" lean-forward="false" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="old_settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Affaires_Montreal/old_settings.py">
+      <file leaf-file-name="urls.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Affaires_Montreal/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-850">
-              <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+            <state relative-caret-position="270">
+              <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="23" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -35,8 +663,8 @@
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/article/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="559">
+              <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
               <folding>
                 <element signature="e#24#63#0" expanded="true" />
               </folding>
@@ -44,42 +672,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Procfile">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/templates/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Affaires_Montreal/settings/__init__.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Pipfile" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Pipfile">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="local.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Affaires_Montreal/settings/local.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="593">
-              <caret line="89" column="1" lean-forward="false" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
-              <folding />
+            <state relative-caret-position="495">
+              <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+              <folding>
+                <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#div#2;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#1;n#div#3;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -87,28 +700,18 @@
       <file leaf-file-name="production.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Affaires_Montreal/settings/production.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="825">
-              <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+            <state relative-caret-position="362">
+              <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Procfile" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Procfile">
+      <file leaf-file-name="base.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/python2.7/site-packages/jet/templates/admin/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="my_settings.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Affaires_Montreal/settings/my_settings.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="515">
-              <caret line="118" column="15" lean-forward="false" selection-start-line="118" selection-start-column="15" selection-end-line="118" selection-end-column="15" />
+            <state relative-caret-position="528">
+              <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -132,6 +735,7 @@
       <find>conten</find>
       <find>linehe</find>
       <find>nav-link</find>
+      <find>cycl</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -140,33 +744,37 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Affaires_Montreal/urls.py" />
         <option value="$PROJECT_DIR$/src/header/admin.py" />
         <option value="$PROJECT_DIR$/src/header/models.py" />
         <option value="$PROJECT_DIR$/src/newsletter/admin.py" />
-        <option value="$PROJECT_DIR$/src/templates/base.html" />
         <option value="$PROJECT_DIR$/src/article/admin.py" />
-        <option value="$PROJECT_DIR$/src/newsletter/models.py" />
         <option value="$PROJECT_DIR$/src/templates/art.html" />
         <option value="$PROJECT_DIR$/src/article/forms.py" />
-        <option value="$PROJECT_DIR$/src/article/models.py" />
-        <option value="$PROJECT_DIR$/src/templates/index.html" />
         <option value="$PROJECT_DIR$/src/static/css/custome.css" />
-        <option value="$PROJECT_DIR$/src/article/urls.py" />
-        <option value="$PROJECT_DIR$/src/templates/article.html" />
         <option value="$PROJECT_DIR$/Procfile.txt" />
         <option value="$PROJECT_DIR$/runtime.txt" />
         <option value="$PROJECT_DIR$/src/Affaires_Montreal/settings.py" />
-        <option value="$PROJECT_DIR$/src/Affaires_Montreal/wsgi.py" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/.gitignore" />
-        <option value="$PROJECT_DIR$/src/article/views.py" />
-        <option value="$PROJECT_DIR$/src/Affaires_Montreal/settings/__init__.py" />
-        <option value="$PROJECT_DIR$/src/Affaires_Montreal/old_settings.py" />
-        <option value="$PROJECT_DIR$/src/Affaires_Montreal/settings/local.py" />
-        <option value="$PROJECT_DIR$/src/Affaires_Montreal/settings/my_settings.py" />
-        <option value="$PROJECT_DIR$/src/Affaires_Montreal/settings/production.py" />
         <option value="$PROJECT_DIR$/Procfile" />
+        <option value="$PROJECT_DIR$/src/Affaires_Montreal/old_settings.py" />
+        <option value="$PROJECT_DIR$/src/Affaires_Montreal/settings/__init__.py" />
+        <option value="$PROJECT_DIR$/src/Affaires_Montreal/wsgi.py" />
+        <option value="$PROJECT_DIR$/src/newsletter/models.py" />
+        <option value="$PROJECT_DIR$/src/article/urls.py" />
+        <option value="$PROJECT_DIR$/src/ads/admin.py" />
+        <option value="$PROJECT_DIR$/src/Affaires_Montreal/settings/my_settings.py" />
+        <option value="$PROJECT_DIR$/src/Affaires_Montreal/settings/local.py" />
+        <option value="$PROJECT_DIR$/src/article/models.py" />
+        <option value="$PROJECT_DIR$/src/templates/index.html" />
+        <option value="$PROJECT_DIR$/src/ads/models.py" />
+        <option value="$PROJECT_DIR$/src/article/views.py" />
+        <option value="$PROJECT_DIR$/src/templates/article.html" />
+        <option value="$PROJECT_DIR$/src/templates/base.html" />
+        <option value="$PROJECT_DIR$/lib/python2.7/site-packages/jet/templates/admin/popup_response.html" />
+        <option value="$PROJECT_DIR$/src/Affaires_Montreal/urls.py" />
+        <option value="$PROJECT_DIR$/src/Affaires_Montreal/settings/production.py" />
+        <option value="$PROJECT_DIR$/lib/python2.7/site-packages/jet/templates/admin/base.html" />
       </list>
     </option>
   </component>
@@ -178,11 +786,13 @@
   </component>
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/src/static/js/node_modules" />
+    <handled-path value="$PROJECT_DIR$/src/static_cdn/js/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="147" />
-    <option name="width" value="989" />
-    <option name="height" value="1053" />
+    <option name="x" value="47" />
+    <option name="y" value="41" />
+    <option name="width" value="1262" />
+    <option name="height" value="1144" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -199,6 +809,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -207,7 +818,221 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.10 virtualenv at ~/dev-proj/AffairesMontreal &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
               <option name="myItemId" value="AffairesMontreal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.10 virtualenv at ~/dev-proj/AffairesMontreal &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AffairesMontreal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.10 virtualenv at ~/dev-proj/AffairesMontreal &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AffairesMontreal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.10 virtualenv at ~/dev-proj/AffairesMontreal &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AffairesMontreal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.10 virtualenv at ~/dev-proj/AffairesMontreal &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AffairesMontreal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.10 virtualenv at ~/dev-proj/AffairesMontreal &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AffairesMontreal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.10 virtualenv at ~/dev-proj/AffairesMontreal &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AffairesMontreal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Python 2.7.10 virtualenv at ~/dev-proj/AffairesMontreal &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="site-packages" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jet" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AffairesMontreal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AffairesMontreal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AffairesMontreal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AffairesMontreal" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -398,7 +1223,6 @@
         </subPane>
       </pane>
       <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -591,20 +1415,20 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="147" width="989" height="1053" extended-state="0" />
+    <frame x="47" y="41" width="1262" height="1144" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2568251" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2385103" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -622,33 +1446,23 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/Affaires_Montreal/settings/local.py</url>
+          <line>43</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="26" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/ads/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/article/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding>
-            <element signature="e#24#63#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/article/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
           <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -656,7 +1470,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -680,7 +1493,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="5" lean-forward="false" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -688,7 +1500,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -696,9 +1507,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
           <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1504665175000" expanded="true" signature="234:295" ph="import ..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -706,13 +1514,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
           <caret line="24" column="32" lean-forward="false" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Affaires_Montreal/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="0" lean-forward="false" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -737,24 +1538,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/newsletter/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="21" lean-forward="true" selection-start-line="14" selection-start-column="21" selection-end-line="14" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/header/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="21" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/newsletter/models.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="43" lean-forward="false" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
         </state>
       </provider>
     </entry>
@@ -763,13 +1550,6 @@
         <state relative-caret-position="225">
           <caret line="17" column="0" lean-forward="false" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/base.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="558">
-          <caret line="44" column="18" lean-forward="false" selection-start-line="44" selection-start-column="18" selection-end-line="44" selection-end-column="26" />
         </state>
       </provider>
     </entry>
@@ -787,28 +1567,156 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/article/urls.py">
+    <entry file="file://$PROJECT_DIR$/Procfile.txt" />
+    <entry file="file://$PROJECT_DIR$/runtime.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Affaires_Montreal/settings.py" />
+    <entry file="file://$PROJECT_DIR$/src/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ads/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Affaires_Montreal/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Pipfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Procfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Affaires_Montreal/settings/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Affaires_Montreal/old_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="2" lean-forward="false" selection-start-line="33" selection-start-column="2" selection-end-line="33" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Affaires_Montreal/wsgi.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="35" lean-forward="false" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/header/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/newsletter/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/article/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ads/admin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="43" lean-forward="true" selection-start-line="11" selection-start-column="43" selection-end-line="11" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Affaires_Montreal/settings/my_settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="46" column="8" lean-forward="false" selection-start-line="46" selection-start-column="8" selection-end-line="46" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Affaires_Montreal/settings/local.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="0" lean-forward="true" selection-start-line="26" selection-start-column="0" selection-end-line="26" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/newsletter/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="240">
+          <caret line="18" column="41" lean-forward="false" selection-start-line="18" selection-start-column="41" selection-end-line="18" selection-end-column="41" />
+          <folding>
+            <element signature="e#24#63#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/cat.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="21" lean-forward="false" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/article/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
           <caret line="16" column="1" lean-forward="false" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/index.html">
+    <entry file="file://$PROJECT_DIR$/src/ads/apps.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="107" column="0" lean-forward="false" selection-start-line="107" selection-start-column="0" selection-end-line="107" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/templates/article.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="7" lean-forward="false" selection-start-line="35" selection-start-column="7" selection-end-line="35" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ads/models.py">
+    <entry file="file://$PROJECT_DIR$/src/ads/tests.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -818,136 +1726,162 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/article/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
+        <state relative-caret-position="540">
+          <caret line="36" column="1" lean-forward="false" selection-start-line="36" selection-start-column="1" selection-end-line="36" selection-end-column="1" />
           <folding>
             <element signature="e#24#63#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile.txt" />
-    <entry file="file://$PROJECT_DIR$/runtime.txt">
+    <entry file="file://$PROJECT_DIR$/src/ads/models.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="13" lean-forward="false" selection-start-line="0" selection-start-column="13" selection-end-line="0" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/article/admin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="20" lean-forward="false" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Affaires_Montreal/settings.py" />
-    <entry file="file://$PROJECT_DIR$/src/Affaires_Montreal/wsgi.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <marker date="1504665175000" expanded="true" signature="234:295" ph="import ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="12" lean-forward="false" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/ads/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Affaires_Montreal/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Pipfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="36" column="0" lean-forward="false" selection-start-line="36" selection-start-column="0" selection-end-line="36" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/article/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="510">
+          <caret line="34" column="5" lean-forward="false" selection-start-line="34" selection-start-column="5" selection-end-line="34" selection-end-column="5" />
           <folding>
             <element signature="e#24#63#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Procfile">
+    <entry file="file://$PROJECT_DIR$/src/article/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="559">
+          <caret line="151" column="0" lean-forward="false" selection-start-line="151" selection-start-column="0" selection-end-line="151" selection-end-column="0" />
+          <folding>
+            <element signature="e#24#63#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#0;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#1;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#2;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#1;n#div#3;n#div#1;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#1;n#div#1;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#3;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/templates/article.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-520">
+          <caret line="93" column="17" lean-forward="false" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#3;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#5;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#6;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#7;n#div#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#span#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#span#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#span#2;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#i#0;n#span#3;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#hr#0;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#0;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#2;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#p#0;n#div#1;n#div#0;n#div#3;n#div#0;n#div#1;n#div#0;n#div#0;n#div#2;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python2.7/site-packages/jet/templates/admin/includes/fieldset.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Affaires_Montreal/settings/__init__.py">
+    <entry file="file://$PROJECT_DIR$/lib/python2.7/site-packages/jet/templates/admin/popup_response.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="8" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="8" />
+        <state relative-caret-position="60">
+          <caret line="4" column="42" lean-forward="true" selection-start-line="4" selection-start-column="42" selection-end-line="4" selection-end-column="42" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Affaires_Montreal/old_settings.py">
+    <entry file="file://$PROJECT_DIR$/lib/python2.7/site-packages/jet/templates/jet/related_field_ajax_list_filter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-850">
-          <caret line="27" column="33" lean-forward="false" selection-start-line="27" selection-start-column="33" selection-end-line="27" selection-end-column="33" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Affaires_Montreal/settings/local.py">
+    <entry file="file://$PROJECT_DIR$/src/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="593">
-          <caret line="89" column="1" lean-forward="false" selection-start-line="89" selection-start-column="1" selection-end-line="89" selection-end-column="1" />
+        <state relative-caret-position="1155">
+          <caret line="77" column="41" lean-forward="false" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Affaires_Montreal/settings/my_settings.py">
+    <entry file="file://$PROJECT_DIR$/src/Affaires_Montreal/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="118" column="15" lean-forward="false" selection-start-line="118" selection-start-column="15" selection-end-line="118" selection-end-column="15" />
+        <state relative-caret-position="270">
+          <caret line="21" column="3" lean-forward="false" selection-start-line="21" selection-start-column="3" selection-end-line="23" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/python2.7/site-packages/jet/static/jet/js/build/bundle.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Affaires_Montreal/settings/production.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" column="19" lean-forward="false" selection-start-line="55" selection-start-column="19" selection-end-line="55" selection-end-column="19" />
+        <state relative-caret-position="362">
+          <caret line="62" column="0" lean-forward="false" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Procfile">
+    <entry file="file://$PROJECT_DIR$/lib/python2.7/site-packages/jet/templates/admin/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state relative-caret-position="528">
+          <caret line="39" column="27" lean-forward="false" selection-start-line="39" selection-start-column="27" selection-end-line="39" selection-end-column="27" />
           <folding />
         </state>
       </provider>

@@ -42,7 +42,7 @@ class Article(models.Model):
     image = models.ImageField(upload_to="upload_location",null=True, blank=True,
                               width_field="width_field",
                               height_field="height_field")
-    newsletter= models.ForeignKey(Newsletter, null=True, blank=True)
+    newsletter = models.ForeignKey(Newsletter, null=True, blank=True)
     height_field = models.IntegerField(default=0)
     width_field = models.IntegerField(default=0)
     content = models.TextField()

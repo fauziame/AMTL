@@ -68,11 +68,13 @@
 
     <div class="col-md-10 content-2" >
 
-{% for article in articles_list %}
-<div id="{{article.slug}}" style="padding-top:120px">
-    <div class="container ad"><a><img src="img/ad3.jpg" class="img-fluid" alt="Responsive image"></a></div>
-     <hr style="margin-top:60px" />
+{% for ad, article in ads_article %}
 
+<div id="{{article.slug}}" style="padding-top:120px">
+    {% if ad %}
+    <div class="container ad"><a><img src="{{ad.image.url}}" class="img-fluid" alt="Responsive image"></a></div>
+     <hr style="margin-top:60px" />
+    {% endif %}
     <div class="row ">
   <h4   class="display-4 col" >{{article.title}}</h4>
   <div class="">
