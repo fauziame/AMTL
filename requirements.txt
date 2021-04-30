@@ -22,7 +22,7 @@ pyasn1-modules==0.1.1
 pythonz-bd==1.11.4
 pytz==2017.2
 requests==2.18.4
-rsa==3.4.2
+rsa==4.7.1
 semver==2.7.8
 shutilwhich==1.1.0
 six==1.10.0
